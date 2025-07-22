@@ -60,7 +60,7 @@ public class SubstringTasksTest {
   @Test
   @DisplayName("Test string with numbers")
   public void testStringWithNumbers() {
-    assertEquals(4, substringTasks.lengthOfLongestSubstring("12321"));
+    assertEquals(3, substringTasks.lengthOfLongestSubstring("12321"));
   }
 
   @Test
@@ -101,7 +101,7 @@ public class SubstringTasksTest {
   @DisplayName("Test mixed case sensitivity")
   public void testMixedCase() {
     // 'A' and 'a' are different characters
-    assertEquals(4, substringTasks.lengthOfLongestSubstring("aAaA"));
+    assertEquals(2, substringTasks.lengthOfLongestSubstring("aAaA"));
   }
 
   @Test
