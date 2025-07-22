@@ -10,13 +10,7 @@ The current implementation handles too many responsibilities in one method. Your
 ## ✅ What You Need to Do
 
 ### Step 1: Refactor the Code
-Open `TransactionProcessor.java`. You'll notice the code:
-- Reads a file
-- Parses lines
-- Applies logic
-- Prints output
-
-Break it down into smaller, more focused methods.
+Open `TransactionProcessor.java` and break it down into smaller, more focused methods.
 
 ---
 
