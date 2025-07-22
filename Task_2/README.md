@@ -1,9 +1,24 @@
-# Task 2 - [To be defined]
+# Task 2 – Debugging: User Data Reader
 
-This directory is reserved for Task 2 of the lab experiment.
+## 📍 Objective
+Fix the bugs in the `UserDataReader` class so that it correctly reads user data from a JSON file.
 
-## Structure
-- `src/main/java/` - Source code files
-- `src/test/java/` - Test files
+## 🐛 What You Need to Do
+
+The `UserDataReader.readUserData()` method is not working correctly. Run the tests to see what's wrong, then fix the issues.
+
+```bash
+mvn test
+```
+
+## 📂 Files Provided
+- `src/main/java/UserDataReader.java` - Contains bugs that need fixing
+- `src/main/java/User.java` - User data model
+- `src/test/java/UserDataReaderTest.java` - Test cases
+- `userdata.json` - Sample data file
 - `pom.xml` - Maven configuration
-- `README.md` - Task instructions
+
+## 🎯 Success Criteria
+All tests should pass when you're done.
+
+You may use GitHub Copilot to help you identify and fix the bugs!
