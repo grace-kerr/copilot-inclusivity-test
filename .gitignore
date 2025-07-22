@@ -6,9 +6,14 @@
 .idea/
 *.classpath
 *.project
+.vscode/
+.settings/
 
 # OS files
 .DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
 
 # Logs
 *.log
@@ -18,3 +23,17 @@
 
 # Others
 out/
+
+# Backup files
+*~
+*.bak
+
+# Test coverage
+coverage/
+jacoco*.exec
+
+# Misc
+*.swp
+*.swo
+.env
+.venv/
