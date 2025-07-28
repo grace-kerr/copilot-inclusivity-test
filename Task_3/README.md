@@ -1,7 +1,7 @@
 # 🧩 Task 3 – Code Refactoring: Process Transactions
 
 ## 📍Objective
-You are given a Java method that processes a file containing bank transactions and prints out a running balance.
+You are given a Java method that processes a file containing bank transactions and prints out a running balance, as well as various statistics and error messages.
 
 The current implementation handles too many responsibilities in one method. Your goal is to **refactor** it into a cleaner, more modular version.
 
