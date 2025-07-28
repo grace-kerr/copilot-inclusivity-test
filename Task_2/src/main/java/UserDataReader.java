@@ -16,7 +16,7 @@ public class UserDataReader {
    * @return List of User objects read from the file
    */
   public List<User> readUserData() {
-    String path = "./userdata"; // BUG 1: should be "./userdata.json"
+    String path = "./userdata";
     List<User> users = new ArrayList<>();
 
     try {
@@ -25,13 +25,12 @@ public class UserDataReader {
       for (int i = 0; i < arr.length(); i++) {
         JSONObject obj = arr.getJSONObject(i);
         String id = obj.getString("user_id");
-        String name = obj.getString("username"); // BUG 2: should be "user_name"
+        String name = obj.getString("username");
         String email = obj.getString("email");
 
         users.add(new User(id, name, email));
       }
     } catch (IOException e) {
-      // BUG 3: No error handling - exception is caught but ignored
     }
 
     return users;
